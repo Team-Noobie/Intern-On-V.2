@@ -112,6 +112,54 @@
                     templateUrl: 'templates/company/interns.html',
                     controller: ''
                 },
+                // Operations
+                {   name: 'operations',
+                    url: '/operations',
+                    templateUrl: 'templates/operations/operations.html',
+                    controller: ''
+                },
+                {   name: 'operations.profile',
+                    url: '/profile',
+                    templateUrl: 'templates/operations/profile.html',
+                    controller: ''
+                },
+                {   name: 'operations.applications',
+                    url: '/applications',
+                    templateUrl: 'templates/operations/applications.html',
+                    controller: ''
+                },
+                {   name: 'operations.schedules',
+                    url: '/schedules',
+                    templateUrl: 'templates/operations/schedules.html',
+                    controller: ''
+                },
+                {   name: 'operations.interns',
+                    url: '/interns',
+                    templateUrl: 'templates/operations/interns.html',
+                    controller: ''
+                },
+                // Supervisor
+                {   name: 'supervisor',
+                    url: '/supervisor',
+                    templateUrl: 'templates/supervisor/supervisor.html',
+                    controller: ''
+                },
+                {   name: 'supervisor.profile',
+                    url: '/profile',
+                    templateUrl: 'templates/supervisor/profile.html',
+                    controller: ''
+                },
+                {   name: 'supervisor.interns',
+                    url: '/interns',
+                    templateUrl: 'templates/supervisor/interns.html',
+                    controller: ''
+                },
+                {   name: 'supervisor.grades',
+                    url: '/grades',
+                    templateUrl: 'templates/supervisor/grades.html',
+                    controller: ''
+                },
+
         ]
         states.forEach(function (state) {
             $stateProvider.state(state);
