@@ -1,0 +1,31 @@
+<div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand">
+                    <h3 class="name">Coordinator Name</h3>
+            </li>
+            <li>
+                <a ui-sref="coordinator.profile">Profile</a>
+            </li>
+            <li>
+                <a ui-sref="coordinator.section">Section</a>
+            </li>
+            <li>
+                <a ui-sref="coordinator.enroll">Enroll Student</a>
+            </li>
+            <li>
+                <a ui-sref="coordinator.grades">Grades</a>
+            </li>
+            <li>
+                <a ui-sref="index">Log-Out</a>
+            </li>
+        </ul>
+    </div>
+    <!-- /#sidebar-wrapper -->
+    
+    <!-- Page Content -->
+    <div id="page-content-wrapper" style="margin-left:250px;">
+        <div class="container-fluid">
+                <ui-view></ui-view> 
+        </div>
+    </div>
+    <!-- /#page-content-wrapper -->

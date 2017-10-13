@@ -1,0 +1,37 @@
+<div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand">
+                    <h3 class="name">Company Name</h3>
+            </li>
+            <li>
+                <a ui-sref="company.profile">Profile</a>
+            </li>
+            <li>
+                <a ui-sref="company.accounts">Accounts</a>
+            </li>
+            <li>
+                <a ui-sref="company.departments">Departments</a>
+            </li>
+            <li>
+                <a ui-sref="company.advertisements">Advertisements</a>
+            </li>
+            <li>
+                <a ui-sref="company.applications">Applications</a>
+            </li>
+            <li>
+                <a ui-sref="company.interns">Interns</a>
+            </li>
+            <li>
+                <a ui-sref="index">Log-Out</a>
+            </li>
+        </ul>
+    </div>
+    <!-- /#sidebar-wrapper -->
+    
+    <!-- Page Content -->
+    <div id="page-content-wrapper" style="margin-left:250px;">
+        <div class="container-fluid">
+                <ui-view></ui-view> 
+        </div>
+    </div>
+    <!-- /#page-content-wrapper -->
