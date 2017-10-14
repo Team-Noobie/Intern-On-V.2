@@ -1,18 +1,5 @@
-.jumbotron{
-    height: -webkit-fill-available;
-    background-image: url('../img/header-bg.jpg');
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    text-align: center;
-}
-
 .name{
-    color: #FFFFFF;    
+    color: #999999;    
 }
 
 #sidebar-wrapper {
@@ -26,7 +13,7 @@
 /* Sidebar Styles */
 
 .sidebar-nav {
-    background: #008cba;    
+    background: #000;    
     position: absolute;
     top: 0;
     width: 250px;
@@ -44,7 +31,7 @@
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #FFFFFF;
+    color: #999999;
 }
 
 .sidebar-nav li a:hover {
@@ -65,7 +52,7 @@
 }
 
 .sidebar-nav > .sidebar-brand a {
-    color: #FFFFFF;
+    color: #999999;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
